@@ -30,9 +30,13 @@ cd tv-show-to-ical
 1. **Install dependencies:**
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 
 ```
+
+On Windows, use ```source .venv\Scripts\activate```.
 
 1. **Configure Environment Variables:**
 Copy the `.env.example` file to `.env` and fill in your credentials.
