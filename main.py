@@ -124,8 +124,7 @@ if __name__ == "__main__":
             config = json.load(f)
             show_ids = config["shows"]
             CUT_OFF_DAYS = config["cutoff"]
-            print(CUT_OFF_DAYS)
-        # scrape_and_save_ics(show_ids)
-        # upload_to_radicale()
+        scrape_and_save_ics(show_ids)
+        upload_to_radicale()
     except FileNotFoundError:
         print("Error: CONFIG.json not found.")
