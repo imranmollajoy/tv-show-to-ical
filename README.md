@@ -22,7 +22,7 @@ A Python utility that fetches TV show release schedules from **The Movie Databas
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/doomkey/tv-show-to-ical.git
+git clone https://github.com/imranmollajoy/tv-show-to-ical.git
 cd tv-show-to-ical
 
 ```
